@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#063b72">
+<meta property="og:title" content="¡Santiago cumple 14! | Fiesta sorpresa">
+<meta property="og:description" content="Estás invitado a una pool party. ¡Shhh, es una sorpresa!">
+<title>¡Santiago cumple 14! | Pool Party</title>
+<style>
+*{box-sizing:border-box} html{width:100%;overflow-x:hidden} body{width:100%;min-height:100vh;padding:24px 14px;background:radial-gradient(circle at 15% 10%,#1ca6d4 0,#0876ae 28%,#042b59 75%);font-family:Arial,Helvetica,sans-serif;color:#fff;display:flex;align-items:center;justify-content:center}
+.card{width:100%;max-width:520px;min-width:0;overflow:hidden;border-radius:28px;background:#f0fcff;color:#07345e;box-shadow:0 22px 60px #001b3d88;border:1px solid #ffffff88}
+.hero{position:relative;text-align:center;padding:38px 22px 30px;background:linear-gradient(145deg,#052f63,#087db1 65%,#15b9cf);overflow:hidden}
+.hero:before,.hero:after{content:"";position:absolute;border:2px solid #ffffff35;border-radius:50%;width:190px;height:190px;top:-105px;left:-70px}
+.hero:after{width:230px;height:230px;top:auto;left:auto;right:-125px;bottom:-150px}
+.kicker{font-size:13px;font-weight:800;letter-spacing:4px;color:#a9f5ff}
+h1{font-size:clamp(36px,9vw,54px);line-height:.98;margin:18px 0 8px;font-weight:900;letter-spacing:-1.5px}
+.age{display:inline-block;margin:10px 0 14px;padding:8px 19px;border:2px solid #8df4ff;border-radius:999px;color:#b9f8ff;font-size:22px;font-weight:900}
+.hero p{max-width:360px;margin:0 auto;color:#effcff;font-size:16px;line-height:1.55}
+.wave{height:15px;background:radial-gradient(20px 12px at 20px 0,#f0fcff 98%,transparent 100%) repeat-x;background-size:40px 16px}
+.content{padding:25px 23px 28px}
+.date{text-align:center;background:#d7f6ff;border-radius:18px;padding:16px;margin-bottom:17px}
+.date strong{display:block;font-size:24px;color:#075985;letter-spacing:1px}
+.date span{display:block;margin-top:5px;font-weight:800;color:#0c789c}
+.details{background:#fff;border:1px solid #c6edf7;border-radius:18px;padding:18px;margin:14px 0}
+.label{font-size:11px;font-weight:900;letter-spacing:2px;color:#1595b7;margin-bottom:7px}
+.place{font-size:21px;font-weight:900;color:#063b72;line-height:1.15}
+.address{font-size:15px;line-height:1.5;color:#42647b;margin-top:6px}
+.items{margin:9px 0 0;padding-left:20px;line-height:1.85;color:#244e69}
+.qrwrap{display:flex;align-items:center;gap:16px;min-width:0;background:#dff8ff;border-radius:18px;padding:15px;margin-top:17px}
+.qrwrap img{width:112px;height:112px;background:#fff;padding:6px;border-radius:10px}
+.qrtext{min-width:0;overflow-wrap:anywhere;font-size:14px;line-height:1.45;color:#164d70}
+.qrtext strong{display:block;font-size:16px;color:#063b72;margin-bottom:5px}
+.footer{text-align:center;padding:8px 0 2px;font-size:22px;font-weight:900;color:#075985}
+.small{text-align:center;font-size:12px;color:#66869a;margin-top:8px}
+a.map{display:block;text-align:center;margin:14px auto 0;background:#087eaa;color:white;text-decoration:none;padding:13px 18px;border-radius:999px;font-weight:800;max-width:270px}
+@media(max-width:380px){body{padding:12px 8px}.hero{padding:30px 16px 24px}.qrwrap{gap:10px;padding:12px}.qrwrap img{width:88px;height:88px;flex:0 0 88px}.content{padding:20px 14px}.details{padding:15px}.label{letter-spacing:1.2px}}
+</style>
+</head>
+<body>
+<main class="card">
+  <header class="hero">
+    <div class="kicker">☀️ ESTÁS INVITADO A UNA</div>
+    <h1>POOL<br>PARTY</h1>
+    <div class="age">¡SANTIAGO CUMPLE 14!</div>
+    <p>Santiago Andrés Sanjinez Quiroga<br>¡Ven a celebrar conmigo una tarde de piscina, diversión y buenos momentos!</p>
+  </header>
+  <div class="wave"></div>
+  <section class="content">
+    <div class="date"><strong>24 DE NOVIEMBRE</strong><span>🕑 Desde las 14:00</span></div>
+    <div class="details">
+      <div class="label">📍 NOS VEMOS EN</div>
+      <div class="place">PISCINA SAUNA POSEIDÓN</div>
+      <div class="address">Av. San Gerónimo</div>
+    </div>
+    <div class="details">
+      <div class="label">🎒 ¡NO TE OLVIDES!</div>
+      <ul class="items">
+        <li>Short o traje de baño.</li>
+        <li>Toalla personal.</li>
+        <li>Sandalias y ropa para cambiarte.</li>
+        <li>¡Muchas ganas de pasarla genial!</li>
+      </ul>
+    </div>
+
+
+    <div class="details" id="sorpresa" style="background:#fff4d6;border:2px solid #f2b84b">
+      <div class="label" style="color:#a45b00;font-size:14px">🤫 ¡ATENCIÓN! ES UNA FIESTA SORPRESA</div>
+      <div style="font-size:24px;line-height:1.15;font-weight:1000;color:#7a3600;text-align:center;margin:8px 0 10px">
+        ¡NO LE DIGAS NADA A SANTIAGO!
+      </div>
+      <div style="font-size:15px;line-height:1.5;color:#70451d;text-align:center">
+        Es un secreto. Mañana hay clases por la mañana y después nos reuniremos para sorprenderlo. Por favor, no comenten nada en clases, grupos ni delante de él. ¡Ayúdanos a mantener la sorpresa! 🤐
+      </div>
+    </div>
+    <div class="details" id="confirmacion">
+      <div class="label">✅ CONFIRMA TU ASISTENCIA</div>
+      <div class="address" style="margin:0 0 12px">Escribe tu nombre y toca el botón para confirmar tu asistencia por WhatsApp.</div>
+      <form id="confirmacion-whatsapp">
+        <label for="nombreInvitado" style="display:block;font-size:13px;font-weight:800;color:#164d70;margin-bottom:7px">Tu nombre</label>
+        <input id="nombreInvitado" name="nombre" type="text" maxlength="70" required placeholder="Escribe tu nombre y apellido"
+          style="width:100%;padding:14px;border:1px solid #a9ddeb;border-radius:12px;font-size:16px;outline-color:#1ea851">
+        <button type="submit"
+          style="width:100%;margin-top:10px;border:0;border-radius:999px;background:#1ea851;color:#ffffff;padding:14px 18px;font-size:15px;font-weight:900;letter-spacing:.3px;cursor:pointer">
+          CONFIRMAR POR WHATSAPP ↗
+        </button>
+      </form>
+      <div id="estadoConfirmacion" class="small" role="status" aria-live="polite">Se abrirá WhatsApp al +591 64060848 con tu nombre en el mensaje.</div>
+    </div>
+    <div class="qrwrap">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQgAAAEICAIAAAAslP2oAAAFCklEQVR4nO3dy40cNxRAUbdhQEk5K8ehrJyUVuW1gcsFAVJkzZyzbvXUfC4INPXIz/M8fwD/9+fpB4AbCQOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCD8NfsPfvz9z47nWO7Xvz+3vv/un8Ps8696nlNfd7fZ78uKAUEYEIQBQRgQhAFBGBCEAWF6H2Nk977ByOzn6KPXj55/1etnndofmP1+R97y9zBixYAgDAjCgCAMCMKAIAwIwoCwbB9j5NScwKr3WbW/MTL787nt/Wfd9vcwYsWAIAwIwoAgDAjCgCAMCMKAsH0f46vavb8xMvv+u+dGviorBgRhQBAGBGFAEAYEYUAQBoRvt49x23lNs+xL/B5WDAjCgCAMCMKAIAwIwoAgDAjb9zFO3ZMwcmqOYtaq86Bu29+47e9hxIoBQRgQhAFBGBCEAUEYEIQBYdk+xm2fl4+cuuf71OtHbrv34zZWDAjCgCAMCMKAIAwIwoAgDAif53lOP8MVTt1rMXLqPu/b5lJOsWJAEAYEYUAQBgRhQBAGBGFAmJ7HuG3eYPd8wm63zV3stnveY9Xv0YoBQRgQhAFBGBCEAUEYEIQBYfs8xu45hNmvu3v/ZJXb5iVO3VN+an/DigFBGBCEAUEYEIQBQRgQhAFh+z3fI7fNY4y8fT9k989n1fd129yIFQOCMCAIA4IwIAgDgjAgCAPCsnmMt5wfddscxez7jLz95zPLuVJwgDAgCAOCMCAIA4IwIAgDwrL7MWZff+rz7Lfvk6x6/1NzDiPOlYIXEAYEYUAQBgRhQBAGBGFAmN7HODVfcdv/47/t/Kjb7v/efV/H7ue3YkAQBgRhQBAGBGFAEAYEYUBYdj/G7s+tR3bPJ6ya61hl937L7vmTt8yTWDEgCAOCMCAIA4IwIAgDgjAgLDtXave8xMhtcxS3nVt1at/j1LyK+zFgI2FAEAYEYUAQBgRhQBAGhGXnSq0y+zn37n2VVc8zsvv5Z7/uqtef4n4M2EgYEIQBQRgQhAFBGBCEAWHZuVK7nfpc/y3nZe2+H2P3nMnIqbkOKwYEYUAQBgRhQBAGBGFAEAaEz/M8U//g7Z9zz77PyO7zmma9Za5j5LbflxUDgjAgCAOCMCAIA4IwIAgDwrJzpU6dp7T78+/Z9zk1v7HKqftATv09jFgxIAgDgjAgCAOCMCAIA4IwIGyfx5h9n5FT90m/ZZ5h5NQ+z6zb9n+sGBCEAUEYEIQBQRgQhAFBGBCm9zHebvecwKl9nt3eft+Fc6VgAWFAEAYEYUAQBgRhQBAGhGXzGLd5yxzFqXs23j4P434MOEAYEIQBQRgQhAFBGBCEAWH6foyRU+cCfdVzkHbfN/KWc7dOfV0rBgRhQBAGBGFAEAYEYUAQBoRl+xgjp+YWRt4yD7D7nKVZt93jsZsVA4IwIAgDgjAgCAOCMCAIA8L2fYzbnNqXWHUe1Kzbzr+a5X4MuIgwIAgDgjAgCAOCMCAIA8K328c4dc/0KbfdXz5y2/3oVgwIwoAgDAjCgCAMCMKAIAwI2/cxbjsvaNXznPp8ffd+y23ngI3s3lexYkAQBgRhQBAGBGFAEAYEYUBYto/xlrmF2+YKVp1ntfv+jbfcC77q92vFgCAMCMKAIAwIwoAgDAjCgPB5nuf0M8B1rBgQhAFBGBCEAUEYEIQBQRgQhAFBGBCEAUEYEIQBQRgQhAFBGBD+A3rURvO/trWCAAAAAElFTkSuQmCC" alt="Código QR para abrir la ubicación en Google Maps">
+      <div class="qrtext"><strong>ESCANEA Y ENCUENTRA EL LUGAR</strong>El código QR te llevará directamente a la ubicación de la piscina en Google Maps.</div>
+    </div>
+    <a class="map" href="https://maps.app.goo.gl/hhntvZdKGbzwLkq26" target="_blank" rel="noopener">ABRIR UBICACIÓN EN MAPS ↗</a>
+    <div class="footer">¡TE ESPERO! 💦</div>
+    <div class="small">Prepárate para una tarde llena de diversión.</div>
+  </section>
+</main>
+
+
+<script>
+(function () {
+  const form = document.getElementById('confirmacion-whatsapp');
+  const input = document.getElementById('nombreInvitado');
+  const status = document.getElementById('estadoConfirmacion');
+  if (!form || !input) return;
+
+  form.addEventListener('submit', function (event) {
+    event.preventDefault();
+    const nombre = input.value.trim();
+    if (!nombre) {
+      input.focus();
+      if (status) status.textContent = 'Por favor, escribe tu nombre antes de confirmar.';
+      return;
+    }
+    const mensaje = '¡Hola! Soy ' + nombre + '. Confirmo mi asistencia a la fiesta sorpresa de Santiago. ¡Guardaré el secreto! 🤫💦';
+    const url = 'https://wa.me/59164060848?text=' + encodeURIComponent(mensaje);
+    const nuevaVentana = window.open(url, '_blank', 'noopener,noreferrer');
+    if (!nuevaVentana) {
+      window.location.href = url;
+    }
+    if (status) {
+      status.textContent = 'Abriendo WhatsApp con tu confirmación, ' + nombre + '...';
+    }
+  });
+})();
+</script>
+</body>
+</html>
